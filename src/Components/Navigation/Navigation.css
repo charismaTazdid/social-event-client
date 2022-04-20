@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Lobster&family=Rubik+Wet+Paint&display=swap');
+
+.main {
+    height: 400px;
+    /* background: linear-gradient(0deg, rgba(46, 45, 46, 0.3),
+            rgba(57, 56, 56, 0.921)), url('/public/comunity.jpg'); */
+    background: linear-gradient(0deg, rgba(46, 45, 46, 0.3),
+            rgba(218, 181, 123, 0.921)), url('/public/comunity.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.navLogo {
+    display: flex;
+    margin-top: 10px;
+}
+
+.logoText {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(107, 26, 26, 0.906);
+    font-family: 'Rubik Wet Paint', cursive;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.middle>a {
+    padding: 7px 15px;
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none;
+    /* color: rgb(255, 167, 3); */
+    color: rgb(61, 57, 45);
+    text-transform: uppercase;
+}
+
+.middle>a:hover {
+    background-color: rgb(47, 48, 51);
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+.rightMenu {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.rightMenu>a {
+    margin: 10px;
+    font-size: large;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+
+
+.rgisterBtn {
+    background-color: rgb(49, 129, 249);
+    background-color: rgb(47, 48, 51);
+    color: white;
+    color: rgb(255, 167, 3);
+    text-transform: uppercase;
+    padding: 7px 25px;
+    border-radius: 13px;
+}
+
+.rgisterBtn:hover {
+    background-color: rgb(81, 83, 86);
+}
+
+.adminBtn {
+    background-color: rgb(47, 48, 51);
+    color: white;
+    color: rgb(255, 167, 3);
+    text-transform: uppercase;
+    padding: 7px 25px;
+    border-radius: 15px;
+}
+
+.adminBtn:hover {
+    background-color: rgb(81, 83, 86);
+
+
+}
+
+.searchField {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.searchField>input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    width: 300px;
+
+}
+
+.searchField>button {
+    background-color: rgb(59, 133, 245);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.searchField>h2 {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}

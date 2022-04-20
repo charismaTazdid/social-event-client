@@ -1,3 +1,10 @@
+
+
+### Social Event managment
+### In this site admin can create an event and other people can join an event.
+
+### in this project I used react.js, react-router, MUI, Privet Route , google Authentication, Node.js - express for Backend, Mongodb Atlas for Database. The Backend code hosted on heroku
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

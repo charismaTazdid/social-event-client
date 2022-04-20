@@ -1,0 +1,46 @@
+.registerVolunteer {
+    min-height: 100vh;
+    background-color: rgba(250, 235, 215, 0.493);
+
+}
+
+table,
+th td {
+    border-bottom: 2px solid rgba(76, 115, 173, 0.841);
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border-right: 2px solid rgba(89, 131, 196, 0.755);
+    min-width: 250px;
+    max-width: 250px;
+}
+
+th, 
+td {
+    text-align: left;
+    color: rgb(33, 31, 29);
+}
+th{
+    color: rgb(196, 14, 75);
+    text-transform: uppercase;
+}
+.deleteArea{
+    border-right: none;
+    text-align: right;
+ 
+}
+
+td > img{
+    height: 100px;
+    width: 100%;
+}
+
+caption {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 30px;
+   color: #000000ea;
+}

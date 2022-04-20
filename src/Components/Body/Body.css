@@ -1,0 +1,7 @@
+.bodymain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -70px;
+    background-color: rgba(244, 221, 192, 0.103);
+}

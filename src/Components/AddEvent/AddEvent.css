@@ -1,0 +1,71 @@
+.addEventDiv{
+    height: 100vh;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form>div {}
+
+.eventName {
+    width: 350px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 174, 218);
+}
+
+.description {
+    width: 350px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    border-radius: 6px;
+    padding: 6px 20px;
+    border: 2px solid rgb(0, 174, 218);
+}
+
+.date {
+    width: 350px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 174, 218);
+}
+
+.image {
+    display: none;
+
+}
+
+.imageLabel {
+    border: 2px solid rgb(0, 174, 218);
+    padding: 10px 70px;
+    color: rgb(0, 174, 218);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+
+}
+.formSubmitBtn{
+    padding: 7px 38px;
+    margin-top: 11px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: aliceblue;
+    border: 2px solid rgb(0, 174, 218);
+    font-weight: bold;
+    font-size: 18px;
+}
+.formSubmitBtn:hover{
+    background-color: rgb(0, 174, 218);
+    color: whitesmoke;
+}

@@ -1,0 +1,81 @@
+.loginMain {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(220, 255, 255);
+    background-color: rgba(7, 5, 3, 0.339);
+    height: 100vh;
+    flex-direction: column;
+}
+
+.logo-login {
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.loginDiv {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(237, 200, 130);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.loginBtn {
+    font-size: large;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .5s;
+}
+.loginBtn:hover{
+    background-color: rgb(224, 201, 171);
+    border: 5px solid blanchedalmond;
+}
+
+.loginBtn>span {
+    color: blue;
+    margin-left: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.logoutBtn{
+    font-size: large;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.logoutBtn>span {
+    color: rgb(188, 0, 16);
+    margin-left: 20px;
+    font-weight: bold;
+}
+.logoutBtn:hover{
+    background-color: rgba(206, 73, 25, 0.534);
+}
+
+.logutText{
+    color: rgb(164, 0, 0);
+    text-transform: uppercase;
+}
+
+.loginText{
+    text-transform: uppercase;
+    font-weight: bold;
+}
