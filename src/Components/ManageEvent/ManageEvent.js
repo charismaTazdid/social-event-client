@@ -6,7 +6,6 @@ const ManageEvent = () => {
     const [existingEvent, setExistingEvent] = useState([]);
 
     useEffect(() => {
-        //we don't need create a new api to get all the existing evnent in our database, couse allrady we create an api to get all data for home page, in that case we can use this
         const url = 'https://dry-escarpment-32310.herokuapp.com/getEvents';
         fetch(url)
             .then(res => res.json())

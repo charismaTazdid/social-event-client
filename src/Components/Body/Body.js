@@ -6,6 +6,7 @@ const Body = () => {
     const [events, setEvents] = useState([])
     useEffect(() => {
         const url = 'https://dry-escarpment-32310.herokuapp.com/getEvents';
+        // const url = 'http://localhost:5050/getEvents';
         fetch(url)
             .then(res => res.json())
             .then(data => setEvents(data))
@@ -14,13 +15,10 @@ const Body = () => {
     return (
 
         <div className='bodymain'>
-           
             {
-                events.map(event => <EventCard event={event} key={event._id}/>)
+                events.map(event => <EventCard event={event} key={event._id} />)
             }
         </div>
-
-
     );
 };
 

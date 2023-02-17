@@ -7,3 +7,5 @@
 ### in this project I used react.js, react-router, MUI, Privet Route , google Authentication, Node.js - express for Backend, Mongodb Atlas for Database. The Backend code hosted on heroku
 
 ### Server code link: https://github.com/raihan-tajdid007/social-event-server
+
+### live site link (deployed on firebase): https://social-events-b4da3.web.app/
